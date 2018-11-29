@@ -1,0 +1,11 @@
+#Neste caso Vamos Lidar com algo do tipo String
+
+algo = str(input('Digite qualquer coisa: '))
+print('{}\nInformações sobre: {}'.format('-'*40,algo))
+print('\nTipo: {}'.format(type(algo)))
+print('\nAlfa Númerico: {}'.format(algo.isalnum()))
+print('\nÉ um conjunto de Letras: {}'.format(algo.isalpha()))
+print('\nNúmerico: {}'.format(algo.isnumeric()))
+print('\nLetras Maiusculas: {}'.format(algo.isupper()))
+print('\nÉ um digito: {}'.format(algo.isdigit()))
+print('\nÉ decimal: {}'.format(algo.isdecimal()))
