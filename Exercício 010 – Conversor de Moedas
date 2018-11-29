@@ -1,0 +1,6 @@
+#1 real = 0,259715 USD
+#Dia 29/Novembro/2018 15:37
+#De acordo XE converter
+reais = float(input('Digite a quantia de reais pretende converter para dolares'))
+dolares = reais * 0.259715
+print('\nQuantidade de dolares Correspondentes: {:.3} U$'.format(dolares))
