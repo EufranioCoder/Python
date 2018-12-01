@@ -1,0 +1,13 @@
+#Eu tenho o Módulo emoji Caso o código não funciona assista a Aula 8  do Prof Gustavo Guanabara
+import emoji
+from math import sqrt, pow
+print(emoji.emojize('Vamos calcular a Hipotenusa de um triângulo Retangulo :smile: :books: :computer:', use_aliases=True))
+catetoOposto = float(input('\nDigite o Valor do Cateto Oposto: '))
+catetoAdjac = float(input('\nDigite o Valor do Cateto Adjacente: '))
+#Lembrando que uma das formas de calcularmos o valor da Hipotenusa de TRIÂNGULO Rectângulo:
+#Hipotenusa² = Cateto Oposto² + Cateto Adjcente² Logo :
+hipotenusa = sqrt(pow(catetoOposto,2) + pow(catetoAdjac, 2))
+seno = catetoOposto/hipotenusa
+cos = catetoAdjac/hipotenusa
+tangente = catetoOposto/catetoAdjac
+print('{}\nHipotenusa = {:.2f}\nSeno = {:.2f}º\nCosseno = {:.2f}º\nTangente = {:.2f}'.format('*'*20, hipotenusa, seno, cos, tangente))
