@@ -1,0 +1,17 @@
+from math import sqrt, pow, trunc, radians, cos, sin, tan, factorial, ceil, floor, fabs
+
+numero = float(input('Digite um número: '))
+raiz = sqrt(numero)
+pot = pow(numero, 2)
+partint = trunc(numero)
+radianos = radians(numero)
+cos = cos(radianos)
+seno = sin(radianos)
+tang = tan(radianos)
+fact = factorial(partint)
+ceil = ceil(numero)
+floor = floor(numero)
+abs = fabs(numero)
+print('\nRaiz = {:.2f}\nPotência de 2 = {:.2f}\nParte Inteira = {}\nRadianos = {:.2f}'.format(raiz, pot, partint, radianos))
+print('Cosseno = {:.2f}\nSeno = {:.2f}\nTangente = {:.2f}\nFactorial = {}\nArredondamento para cima = {:.2f}\nArredondamento para baixo = {:.2f}'.format(cos, seno, tang, fact,ceil, floor))
+print('Valor Absoluto = {}'.format(abs))
