@@ -1,0 +1,9 @@
+from random import shuffle
+
+nome1 = input('Digite o nome do Primeiro Aluno: ')
+nome2 = input('Digite o nome do Segundo Aluno: ')
+nome3 = input('Digite o nome do Terceiro Aluno: ')
+nome4 = input('Digite o nome do quarto Aluno: ')
+listaDeNomes = [nome1, nome2, nome3, nome4]
+shuffle(listaDeNomes)
+print('Lista Nova de Apresentação: {}'.format(listaDeNomes))
