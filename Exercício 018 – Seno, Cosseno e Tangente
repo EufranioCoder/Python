@@ -1,0 +1,8 @@
+from math import  radians, sin, cos, tan                                               
+valor = float(input('Digite um determinado valor: '))
+#Foi necessário fazer a conversão do número inserido para radianos! :)
+radianos = radians(valor)
+seno = sin(radianos)
+cosseno = cos(radianos)
+tangente = tan(radianos)
+print('Seno = {:.2f}\nCos = {:.2f}\nTangente = {:.2f}'.format(seno, cosseno, tangente))
