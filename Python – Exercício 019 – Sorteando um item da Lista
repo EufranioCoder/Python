@@ -1,0 +1,9 @@
+import random
+
+nome1 = input('Digite o nome do Primeiro Aluno: ')
+nome2 = input('Digite o nome do Segundo Aluno: ')
+nome3 = input('Digite o nome do Terceiro Aluno: ')
+nome4 = input('Digite o nome do quarto Aluno: ')
+listaDeNomes = [nome1, nome2, nome3, nome4]
+escolha = random.choice(listaDeNomes)
+print('O aluno escolhido foi: {}'.format(escolha))
