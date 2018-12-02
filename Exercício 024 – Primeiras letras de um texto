@@ -1,0 +1,6 @@
+cidade = input('Digite o Nome de Uma Cidade: ')
+cidade = cidade.strip()
+cidade = cidade.title()
+resposta = cidade.startswith('Santo')
+print('Resposta:\nFalse -> Não Começa com Santo\n1 -> Sim Começa com Santo')
+print('Resposta: {}'.format(resposta))
