@@ -1,0 +1,6 @@
+nome = str(input('Digite o Seu Nome Completo Por-favor: ')).strip().title()
+ultimoEspaco = nome.count(' ')
+nome = nome.split()
+print('Analisando Nome: ')
+print('Primeiro Nome = {}'.format(nome[0]))
+print('Ultimo Nome = {}'.format(nome[ultimoEspaco]))
