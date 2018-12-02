@@ -1,6 +1,6 @@
-a = int(input('Digite o valor de A: '))
-b = int(input('Digite o valor de B: '))
-c = int(input('Digite o valor de C: '))
+a = int(input('Digite o valor de A(Primeiro lado): '))
+b = int(input('Digite o valor de B(Segundo lado): '))
+c = int(input('Digite o valor de C(Base): '))
 
 if a+b > c:
   print('O triângulo pode ser formado')
