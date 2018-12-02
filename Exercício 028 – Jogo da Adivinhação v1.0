@@ -1,0 +1,11 @@
+import random
+
+print('Tente advinhar o número que o Computador pensou entre 0 e 5')
+numero = int(input('Digite o Número: '))
+pc = random.randint(0, 5)
+if numero == pc:
+  print('Você acertou\nPc = {}\nVocê = {}'.format(pc, numero))
+  print('Parabéns para você')
+else:
+  print('Você não acertou\nPc = {}\nVocê = {}'.format(pc, numero))
+  print('Tente Novamente')
