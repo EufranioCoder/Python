@@ -1,0 +1,6 @@
+nome = input('Digite o seu Nome: ')
+nome = nome.strip()
+nome = nome.title()
+print('\nTrue -> Contem Silva')
+print('False -> Não Contem Silva')
+print('Resposta: {}'.format('Silva' in nome))
