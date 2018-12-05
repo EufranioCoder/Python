@@ -2,7 +2,7 @@ a = int(input('Digite o valor de A(Primeiro lado): '))
 b = int(input('Digite o valor de B(Segundo lado): '))
 c = int(input('Digite o valor de C(Base): '))
 
-if a+b > c:
-  print('O triângulo pode ser formado')
+if -(b - c) < a < b + c or -(a - c) < b < a + c or -(a - b) < c < a + b:
+    print('O triângulo pode ser formado')
 else:
   print('O triângulo não pode ser formado')
