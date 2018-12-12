@@ -1,4 +1,5 @@
-primeiroNumero = int(input('Digite o Primeiro Número:\n'))
-segundoNumero = int(input('Digite o Segundo Número:\n'))
+print('{:~^40}'.format('SOMA NÚMEROS'))
+primeiroNumero = int(input('Insira o Primeiro Número: '))
+segundoNumero = int(input('Insira o Segundo Número: '))
 soma = primeiroNumero + segundoNumero
-print('\n{} + {} = {}'.format(primeiroNumero, segundoNumero, soma))
+print('RESULTADO:\n{} + {} = {}'.format(primeiroNumero, segundoNumero, soma))
