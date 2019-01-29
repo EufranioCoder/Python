@@ -1,2 +1,4 @@
+print('Número sucessor e antecessor')
+
 numero = int(input('Digite um número inteiro qualquer'))
-print('O número {} tem como seu antecessor o número {}\ne sucessor o número {}'.format(numero, numero-1, numero+1))
+print('Result:\nAntecessor: {}\nActual: {}\nSucessor: {}'.format(numero-1, numero, numero+1))
