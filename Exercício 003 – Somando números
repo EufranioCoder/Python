@@ -1,5 +1,6 @@
-print('{:~^40}'.format('SOMA NÚMEROS'))
-primeiroNumero = int(input('Insira o Primeiro Número: '))
-segundoNumero = int(input('Insira o Segundo Número: '))
-soma = primeiroNumero + segundoNumero
-print('RESULTADO:\n{} + {} = {}'.format(primeiroNumero, segundoNumero, soma))
+print('{}\n{:^40}'.format('-='*20,'SOMA DE DOIS NÚMEROS'))
+primeiro_num = int(input('Insira o Primeiro Número: '))
+segundo_num = int(input('Insira o Segundo Número: '))
+soma = primeiro_num + segundo_num
+print('\n{} + {} = {}'.format(primeiro_num, segundo_num, soma))
+print('{}'.format('=-'*20))
