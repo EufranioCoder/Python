@@ -1,3 +1,4 @@
-print('{}\n{:^40}\n{:*>40}'.format('*'*40, 'Seja Muito Bem-vindo', 'By Eufránio Diogo'))
-nome = str(input('Digite o seu nome Por-favor: '))
-print('Seja Muito Bem-Vindo Sr.(a) {}'.format(nome))
+print('{}\n{:^40}\n{:*>40}'.format('*'*40, 'Seja Muito Bem-vindo Meu Querido/a', 'By Eufránio Diogo'))
+nome = str(input('Qual o seu nome Por-favor: '))
+print('Olá {} seja bem-vindo ao mundo PYTHON'.format(nome))
+print('Uma boa jornada!!!')
