@@ -1,4 +1,6 @@
-nota1 = float(input('Digite a nota que teve na primeira prova: '))
-nota2 = float(input('Digite a nota que teve na segunda prova: '))
+print('CÁLCULO DE MÉDIA NORMAL')
+
+nota1 = float(input('Nota 1º Prova: '))
+nota2 = float(input('Nota 2º Prova: '))
 media = (nota1+nota2)/2
-print('\nMédia = {:.2}'.format(media))
+print('\nMédia = {:.2f}'.format(media))
