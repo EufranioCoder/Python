@@ -1,4 +1,6 @@
-largura = float(input('Digite a Largura da parede em Metros(m): '))
-altura = float(input('Digite a Altura da parede em Metros(m): '))
+print('Programa Pinta Pintor')
+
+largura = float(input('Largura da parede em Metros(m): '))
+altura = float(input('Altura da parede em Metros(m): '))
 tintaNecessaria = (altura * largura)/2**2
-print('Tinta necessária para pintar a parede de:\nDados:\nAltura = {:.2}\nLargura = {:.2}\nSolução:\nLitros Necessários: {} l'.format(altura, largura, tintaNecessaria))
+print('\nDados:\nAltura = {:.2f}\nLargura = {:.2f}\nLitros Necessários: {} l(Litros)'.format(altura, largura, tintaNecessaria))
