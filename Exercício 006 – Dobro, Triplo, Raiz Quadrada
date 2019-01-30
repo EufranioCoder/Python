@@ -1,5 +1,7 @@
-numero = int(input('Digite um determinado número: '))
+print('CÁLCULO DO DOBRO, TRIPLO E RAIZ QUADRADA')
+
+numero = int(input('Insira um número Inteiro: '))
 dobro = numero * 2
 triplo = numero * 3
 raiz = numero**(1/2)
-print('{}\nDobro: {}\nTriplo: {}\nRaiz Quadrada: {}'.format('-'*30, dobro, triplo, raiz))
+print('RESULTADOS do Número {}\nDobro: {}\nTriplo: {}\nRaiz Quadrada: {}'.format(numero,dobro, triplo, raiz))
